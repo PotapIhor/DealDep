@@ -46,7 +46,7 @@ class Google {
         return b;
     }
 
-
+///переписать на PageObject & Selenide
 
        // driver.findElement(By.tagName( "https://ru.wikipedia.org/3/"))
          //       .click();
