@@ -7,7 +7,7 @@ public class MainPage {
     String expectedUrl;
     final String googleUrl= "http://google.com.ua";
 
-    public MainPages(WebDriver webDriver, String expectedUrl) {
+    public MainPage(WebDriver webDriver, String expectedUrl) {
         this.webDriver = webDriver;
         this.expectedUrl = expectedUrl;
     }
