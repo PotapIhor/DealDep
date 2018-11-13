@@ -1,7 +1,7 @@
 package driver;
 
-import mainPage.MainPage;
-import mainPage.SearchPage;
+import pages.GooglePage;
+import pages.SearchResultsPage;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -11,9 +11,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class DriverTest {
-    protected  WebDriver driver;
-    protected MainPage mainPages;
-    protected SearchPage searchPage;
+    public   WebDriver driver;
+    public GooglePage mainPages;
+    public SearchResultsPage searchPage;
     public WebElement element;
 
     @BeforeClass

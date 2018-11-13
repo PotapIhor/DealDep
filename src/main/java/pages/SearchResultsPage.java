@@ -1,11 +1,11 @@
-package mainPage;
+package pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
-public class SearchPage extends MainPage {
-    public SearchPage(WebDriver webDriver) {
-        super(webDriver, "/search?client=opera&hs=Yes&ei=yVPjW5DGGYmvsAGX05_IBA&q=Nebuchadnezzar&oq=Nebuchadnezzar");
+public class SearchResultsPage extends GooglePage {
+    public SearchResultsPage(WebDriver webDriver) {
+        super(webDriver, "/search?ei=0bTqW6HcIuyegAagr7WYBA&q=Nebuchadnezzar");
     }
 
     public void newSearch (){
